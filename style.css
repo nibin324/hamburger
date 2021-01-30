@@ -1,0 +1,30 @@
+  .topnavbar {
+    background-color: #ffffff;
+    padding-top: 50px;
+  }
+  
+  .topnavbar a {
+    color: rgb(10, 10, 10);
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    width: 200px;
+  }
+
+  .topnavbar a:hover {
+    background-color: #beaeae;
+    color: blue;
+  }
+  
+  
+  .topnavbar a.icon {
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  .topnavbar a.icon:hover{
+      color: blue;
+  }

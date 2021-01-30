@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#009578">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <script src="https://kit.fontawesome.com/00df3b64a6.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+        <!-- header section started here -->
+        <header>
+            <div class="topnavbar">
+                <a class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <div id="navbarcontent">
+                  <a href="#">Home</a>
+                  <a href="#">About Us</a>
+                  <a href="#">Gallery</a>
+                  <a href="#">Contact Us</a>
+                </div>
+            </div>
+        </header>
+            
+          <script>
+            function myFunction() {
+              var x = document.getElementById("navbarcontent");
+              if (x.style.display == "none") {
+                x.style.display = "block";
+              } else {
+                x.style.display = "none";
+              }
+            }
+          </script>
+</body>
+</html>
